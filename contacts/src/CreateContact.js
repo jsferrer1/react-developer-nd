@@ -6,7 +6,7 @@ class CreateContact extends Component {
   render() {
     return (
       <div>
-        <Link className='close-create-contact' to='/'></Link>
+        <Link className='close-create-contact' to='/'>Close</Link>
         <form className='create-contact-form'>
           <ImageInput
             className='create-contact-avatar-input'
